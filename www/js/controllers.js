@@ -2,9 +2,7 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
 $scope.picData = "img/001.png";
-    $scope.picData1 = "img/002.png";
-    $scope.picData2 = "img/003.png";
-    $scope.picData3 = "img/004.png";
+    
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
@@ -15,7 +13,8 @@ $scope.picData = "img/001.png";
   //
   //$scope.$on('$ionicView.enter', function(e) {
   //});
-
+$scope.picData1 = "img/002.png";
+    
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
     Chats.remove(chat);
@@ -27,6 +26,8 @@ $scope.picData = "img/001.png";
 })
 
 .controller('AccountCtrl', function($scope) {
+    $scope.picData2 = "img/003.png";
+    $scope.picData3 = "img/004.png";
   $scope.settings = {
     enableFriends: true
   };
