@@ -2,6 +2,9 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
 $scope.picData = "img/001.png";
+    $scope.picData1 = "img/002.png";
+    $scope.picData2 = "img/003.png";
+    $scope.picData3 = "img/004.png";
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
