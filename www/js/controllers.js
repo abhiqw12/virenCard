@@ -1,7 +1,7 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
-$scope.picData = "../img/001.png";
+$scope.picData = "img/001.png";
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
